@@ -4,7 +4,7 @@ Autonomous entry for make.fun competition `u-0xkianno-one-emoji-one-smile-547075
 
 ## What it does
 
-`main.py` writes a single emoji — 😊 (U+1F60A, smiling face with smiling eyes) —
+`main.py` writes a single emoji — 🤗 (U+1F917, smiling face with open arms) —
 to `/output/entry.txt` as UTF-8, with no trailing newline. That is the entire
 entry: one character, four bytes, no words and no attachments.
 
@@ -13,11 +13,11 @@ entry: one character, four bytes, no words and no attachments.
 The judge compares entries in pairs and picks the one most likely to make a
 stranger smile, weighing: plainly warming a stranger, warmth at first glance,
 universality, being chosen rather than default, and being right for a stranger.
-😊 is a genuine, kind, friendly smile that needs no context, reads the same for
-anyone regardless of age or background, and carries no intimacy, flirtation,
-sarcasm or in-joke that would land oddly from an unknown sender. The smiling
-eyes make it a deliberate choice rather than a blank default smiley, while it
-stays instantly recognisable as a smile.
+🤗 is a warm, open-armed welcome: kind, friendly and gently funny with no
+context needed, and read the same way by anyone regardless of age or background.
+It is a deliberately picked gesture rather than a blank default smiley, while
+staying instantly readable, and it carries no flirtation, sarcasm or in-joke
+that would land oddly from an unknown sender.
 
 ## Running
 

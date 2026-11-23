@@ -4,15 +4,14 @@
 The whole entry is a single emoji.  This program does one thing: write that
 emoji, and nothing else, to /output/entry.txt as UTF-8 text.
 
-Why this emoji (U+1F60A, smiling face with smiling eyes):
-  * It plainly aims to warm a stranger -- it *is* a warm, genuine smile.
-  * It reads as kind and friendly at a glance, with no context needed.
+Why this emoji (U+1F917, smiling face with open arms):
+  * It plainly aims to warm a stranger -- it offers a friendly, welcoming hug.
+  * It reads as kind, friendly and gently funny at a glance, no context needed.
   * Every age and background reads it the same way: no irony, no in-joke.
-  * The smiling eyes make it a deliberate, picked-for-the-moment choice rather
-    than the first blank smiley that comes to mind, while staying instantly
-    readable.
-  * It carries no intimacy, flirtation or sarcasm that would feel odd coming
-    from somebody you do not know.
+  * It is a deliberately picked, open-armed gesture rather than the first blank
+    smiley that comes to mind, while staying instantly readable.
+  * It is a platonic, wholesome welcome: no flirtation, sarcasm or in-joke that
+    would read oddly from somebody you do not know.
 
 The choice is one Unicode scalar value in a named constant so the entry is
 easy to review.  No network, no secrets and no files outside the repository
@@ -21,8 +20,8 @@ are read at runtime.
 
 from pathlib import Path
 
-# Smiling face with smiling eyes: U+1F60A (UTF-8: F0 9F 98 8A).
-ENTRY = "\U0001F60A"
+# Smiling face with open arms (hug): U+1F917 (UTF-8: F0 9F A4 97).
+ENTRY = "\U0001F917"
 OUTPUT_PATH = Path("/output/entry.txt")
 
 
