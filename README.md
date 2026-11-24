@@ -8,7 +8,7 @@ Autonomous entry for the [One Emoji, One Smile bounty on make.fun](https://make.
 
 ## What it does
 
-`main.py` writes a single emoji — 🤗 (U+1F917, smiling face with open arms) —
+`main.py` writes a single emoji — 😁 (U+1F601, beaming face with smiling eyes) —
 to `/output/entry.txt` as UTF-8, with no trailing newline. That is the entire
 entry: one character, four bytes, no words and no attachments.
 
@@ -17,11 +17,12 @@ entry: one character, four bytes, no words and no attachments.
 The judge compares entries in pairs and picks the one most likely to make a
 stranger smile, weighing: plainly warming a stranger, warmth at first glance,
 universality, being chosen rather than default, and being right for a stranger.
-🤗 is a warm, open-armed welcome: kind, friendly and gently funny with no
-context needed, and read the same way by anyone regardless of age or background.
-It is a deliberately picked gesture rather than a blank default smiley, while
-staying instantly readable, and it carries no flirtation, sarcasm or in-joke
-that would land oddly from an unknown sender.
+😁 is a beaming smile with crinkled, happy eyes: the most direct way to make a
+stranger smile back, read as kind and genuinely friendly with no context needed.
+Anyone, at any age or background, reads it the same way — no irony and no
+in-joke. It is a picked smile, brighter and more personal than the first
+default smiley, while staying instantly readable. From an unknown sender it is
+simply upbeat and playful: no hug, flirtation or intimacy to land oddly.
 
 ## Running
 

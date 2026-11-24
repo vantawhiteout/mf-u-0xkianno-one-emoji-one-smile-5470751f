@@ -4,24 +4,28 @@
 The whole entry is a single emoji.  This program does one thing: write that
 emoji, and nothing else, to /output/entry.txt as UTF-8 text.
 
-Why this emoji (U+1F917, smiling face with open arms):
-  * It plainly aims to warm a stranger -- it offers a friendly, welcoming hug.
-  * It reads as kind, friendly and gently funny at a glance, no context needed.
-  * Every age and background reads it the same way: no irony, no in-joke.
-  * It is a deliberately picked, open-armed gesture rather than the first blank
+Why this emoji (U+1F601, beaming face with smiling eyes):
+  * A beaming, crinkly-eyed grin is the most direct way to make a stranger
+    smile back: warmth you can see at a glance, with no context needed.
+  * The smiling eyes read as a genuine, kind, friendly smile rather than a
+    polite or blank default smiley.
+  * It means the same thing to a child, a grandparent or anyone else: no
+    irony, no in-joke and no culture-specific reference to get wrong.
+  * It is picked, not reflexive: brighter and more personal than the first
     smiley that comes to mind, while staying instantly readable.
-  * It is a platonic, wholesome welcome: no flirtation, sarcasm or in-joke that
-    would read oddly from somebody you do not know.
+  * It is safe from an unknown sender: playful and upbeat, with no hug,
+    flirtation, sarcasm or intimacy that could land oddly.
 
-The choice is one Unicode scalar value in a named constant so the entry is
-easy to review.  No network, no secrets and no files outside the repository
-are read at runtime.
+A face that smiles back at the reader beats a gesture here: the warmth is
+direct, unmistakable and safe from a stranger.  The choice is one Unicode
+scalar value in a named constant so the entry is easy to review.  No network,
+no secrets and no files outside the repository are read at runtime.
 """
 
 from pathlib import Path
 
-# Smiling face with open arms (hug): U+1F917 (UTF-8: F0 9F A4 97).
-ENTRY = "\U0001F917"
+# Beaming face with smiling eyes: U+1F601 (UTF-8: F0 9F 98 81).
+ENTRY = "\U0001F601"
 OUTPUT_PATH = Path("/output/entry.txt")
 
 
